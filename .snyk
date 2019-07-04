@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - async > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - redux-form > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - redux > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - react-quill > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - sequelize > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - react-hot-loader > react-proxy > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - geoip-lite > ip-address > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - sqs-consumer > async > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - geoip-lite > async > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
+    - react-bootstrap-table > @allenfang/react-toastr > lodash:
+        patched: '2019-07-04T07:13:16.345Z'
